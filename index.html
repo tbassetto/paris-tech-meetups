@@ -26,7 +26,7 @@
           <li class="has-button">
             <a class="small button" href="https://docs.google.com/spreadsheet/viewform?formkey=dEY5T016SmxjVHdPZXl2QmdnR0hmS1E6MQ#gid=0" target="_blank">Ajouter un meetup</a>
           </li>
-          <li><a href="#" data-reveal-id="myModal2" data-animation="fadeAndPop">À propos</a></li>
+          <li><a href="#" data-reveal-id="modal" data-animation="fadeAndPop">À propos</a></li>
         </ul>
       </section>
     </nav>
@@ -43,6 +43,10 @@
   <!-- Search Bar -->
   <div class="row">
     <div class="eight columns push-two loading" id="meetup-container">
+      <div class="alert-box">
+        Site est en cours de mise à jour (description des meetups, ajout, etc.)
+        <!-- <a href="" class="close">×</a> -->
+      </div>
       <div class="radius panel">
         <form class="search-form">
           <div class="row collapse">
@@ -55,6 +59,14 @@
           </div>
         </form>
       </div>
+      <!-- <dl class="sub-nav">
+        <dt>Filtre/Tri:</dt>
+        <dd class="active"><a href="#">Alphabétique</a></dd>
+        <dd><a href="#">Taille</a></dd>
+        <dd><a href="#">Design</a></dd>
+        <dd><a href="#">Tech</a></dd>
+        <dd><a href="#">Entrepreneur</a></dd>
+      </dl> -->
     </div>
   </div>
 
@@ -72,7 +84,7 @@
     </div>
   </footer>
 
-  <div id="myModal2" class="reveal-modal large">
+  <div id="modal" class="reveal-modal large">
     <h2>À propos</h2>
     <h3>Roadmap</h3>
     <ul>

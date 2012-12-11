@@ -36,10 +36,9 @@
       '<div class="ten columns">' +
         '<h4 class="name"><a href="{url}" target="_blank">{name}</a></h4>' +
         '<p class="description">{description}</p>' +
-        '<ul class="inline-list">' +
-          // '<li><a class="button tiny" href="http://twitter.com/share">Partager</a></li>' +
-          '<li><a href="https://twitter.com/share" class="twitter-share-button" data-text="J\'ai découvert {name} : {url} via http://tbassetto.github.com/paris-tech-meetups/" data-lang="fr" data-count="none">Partager</a></li>' +
-        '</ul>' +
+        // '<ul class="inline-list">' +
+        //   '<li><a href="https://twitter.com/share" class="twitter-share-button" data-text="J\'ai découvert {name} : {url} via http://tbassetto.github.com/paris-tech-meetups/" data-lang="fr" data-count="none">Partager</a></li>' +
+        // '</ul>' +
       '</div>' +
     '</li>';
 
